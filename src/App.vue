@@ -1,13 +1,15 @@
 <script setup>
-import DataBindng from "./components/DataBindng.vue";
+import DataBinding from "./components/DataBindng.vue";
 import Checkbox from "./components/Checkbox.vue";
+import MultipleCheckbox from "./components/MultipleCheckbox.vue";
 </script>
 
 
 
 <template>
-<DataBindng/>
-  <checkbox/>
+<DataBinding/>
+  <Checkbox/>
+  <MultipleCheckbox/>
 </template>
 
 
